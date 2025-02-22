@@ -1,16 +1,10 @@
 import streamlit as st
 from main import process_pdf
-import time  # For simulating progress bar
+import time
+import sys
 import os
 
-import spacy
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    from spacy.cli import download
-    download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
-
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 # Custom CSS for advanced styling
 st.markdown("""

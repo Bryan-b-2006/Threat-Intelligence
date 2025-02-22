@@ -4,3 +4,4 @@ Pillow
 PyMuPDF
 spacy
 regex
+subprocess

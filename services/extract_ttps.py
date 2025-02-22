@@ -1,7 +1,10 @@
 import re
 import json
 import logging
+import os 
+import sys
 
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 

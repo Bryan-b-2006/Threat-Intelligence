@@ -6,6 +6,10 @@ import fitz  # PyMuPDF
 import io
 import json
 import html
+import sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import static.regex_pattern
 import static.keywords
 from services.extract_entities import (
@@ -16,6 +20,10 @@ from services.extract_entities import (
 from services.extract_malware import extract_malware_details
 from services.extract_iocs import extract_iocs
 from services.extract_ttps import extract_ttp
+
+import subprocess
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
 
 def extract_text_and_images(pdf_path):
     """Extracts text and images from a PDF file."""

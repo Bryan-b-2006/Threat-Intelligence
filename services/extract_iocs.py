@@ -1,5 +1,10 @@
 import re
 import spacy
+import os 
+import sys
+
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 from spacy.matcher import PhraseMatcher
 from static.keywords import file_extensions
 

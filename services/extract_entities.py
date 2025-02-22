@@ -1,6 +1,8 @@
 import re
+import os
+import sys
 # main_extraction.py
-
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 from static.regex_pattern import THREAT_ACTOR_PATTERN, TARGETED_ENTITIES_PATTERN, MALWARE_NAME_PATTERN
 from static.keywords import SECTOR_KEYWORDS, COUNTRY_KEYWORDS, REGION_KEYWORDS
 
