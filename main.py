@@ -7,10 +7,6 @@ import io
 import json
 import html
 import sys
-import spacy
-
-import subprocess
-subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
 
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
