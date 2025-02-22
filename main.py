@@ -10,11 +10,8 @@ import sys
 import spacy
 
 import subprocess
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load("en_core_web_sm")
+subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import static.regex_pattern
