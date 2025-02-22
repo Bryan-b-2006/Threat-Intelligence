@@ -29,7 +29,7 @@ Our tool helps you extract and analyze **critical threat intelligence data** fro
 Before using this tool, ensure that you have the following installed:
 
 ### **🔗 Required Dependencies:**  
-- **Python 3.12.8**  
+- **Python 3.12.8(Because Spacy Model only works with Version under 3.12.8)**  
 - **Required Python libraries:**  
   ```
   streamlit
@@ -38,7 +38,7 @@ Before using this tool, ensure that you have the following installed:
   PyMuPDF
   spacy
   ```
-- **spaCy English Model(Auto Download in requirements.txt)**  
+- **spaCy English Model**  
   ```
   python -m spacy download en_core_web_sm
   ```
@@ -55,10 +55,12 @@ cd Threat-Intelligence
 
 ### **2️⃣ Install dependencies:**  
 ```sh
+pip install --upgrade pip
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 
-### **3️⃣ Download the spaCy English Model:(Do this if not installed Automatically)**  
+### **3️⃣ Download the spaCy English Model:**  
 ```sh
 python -m spacy download en_core_web_sm
 ```
