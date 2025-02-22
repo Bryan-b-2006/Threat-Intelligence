@@ -8,14 +8,14 @@ import json
 import html
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import subprocess
 try:
     nlp = spacy.load("en_core_web_sm")
 except OSError:
     subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
     nlp = spacy.load("en_core_web_sm")
-    
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import static.regex_pattern
 import static.keywords
 from services.extract_entities import (
