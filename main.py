@@ -10,6 +10,7 @@ import sys
 
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import static.regex_pattern
 import static.keywords
 from services.extract_entities import (

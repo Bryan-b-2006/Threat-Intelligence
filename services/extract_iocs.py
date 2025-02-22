@@ -8,8 +8,9 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 from spacy.matcher import PhraseMatcher
 from static.keywords import file_extensions
 
-# Load the spaCy model
-nlp = spacy.load("en_core_web_sm")
+# Load the spaCy NLP model
+model_path = os.path.join(os.path.dirname(__file__), "../static/en_core_web_sm")
+nlp = spacy.load(model_path)
 
 # Function to extract IoCs (IP addresses, Domains, Email addresses, File hashes)
 def extract_iocs(text):
