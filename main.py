@@ -7,6 +7,7 @@ import io
 import json
 import html
 import sys
+import spacy
 
 import subprocess
 try:
