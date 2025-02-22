@@ -9,7 +9,7 @@ from spacy.matcher import PhraseMatcher
 from static.keywords import file_extensions
 
 # Load the spaCy NLP model
-model_path = os.path.join(os.path.dirname(__file__), "en_core_web_sm")
+model_path = os.path.join(os.path.dirname(__file__), "en_core_web_sm-3.8.0")
 nlp = spacy.load(model_path)
 
 # Function to extract IoCs (IP addresses, Domains, Email addresses, File hashes)
