@@ -151,7 +151,7 @@ This **Threat Intelligence project** was created as a **cutting-edge solution** 
 🔒 **Driven by curiosity and a deep interest in cybersecurity**, we aim to make a meaningful impact in the field by leveraging technology to enhance digital security. 🚀   
 
 ### **🛠 Team Members:**  
-🚀 **Ishant Choudhary** - **Team Lead**  
+🚀 [**Ishant Choudhary** - **Team Lead**](@griffin-dox)  
 👩‍💻 **Bhagyashree Bharate**  
 🛡️ **Bryan Binu**  
 💰 **Hrishikesh Hiray**  
