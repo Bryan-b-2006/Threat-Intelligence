@@ -150,12 +150,12 @@ This **Threat Intelligence project** was created as a **cutting-edge solution** 
 
 🔒 **Driven by curiosity and a deep interest in cybersecurity**, we aim to make a meaningful impact in the field by leveraging technology to enhance digital security. 🚀   
 
-### **🛠 Team Members:**  
-🚀 [**Ishant Choudhary** - **Team Lead**](@griffin-dox)  
-👩‍💻 **Bhagyashree Bharate**  
-🛡️ **Bryan Binu**  
-💰 **Hrishikesh Hiray**  
-📊 **Parth Sujit**  
+### [**🛠 Team-Cyfer-Trace Team Members:**](https://github.com/Team-Cyfer-Trace)  
+🚀 [**Ishant Choudhary** - **Team Lead**](https://github.com/griffin-dox)  
+👩‍💻 [**Bhagyashree Bharate**](https://github.com/reebharate)  
+🛡️ [**Bryan Binu**](https://github.com/Bryan-b-2006)
+💰 [**Hrishikesh Hiray**](https://github.com/hrishikesh-hiray)
+📊 [**Parth Sujit**](https://github.com/CodeitParth)
 
 ---
 🚀 **"Empowering Cybersecurity through AI & Automation"**  
