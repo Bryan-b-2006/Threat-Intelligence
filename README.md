@@ -3,8 +3,7 @@
 ---
 
 ## 🚨 Threat Intelligence Data Extractor 🚨 [Live Now!!!](https://cyfer-trace-threat-intelligence.streamlit.app)  
-Welcome to the **Threat Intelligence Data Extractor** project, developed by **Team Cyber Trace SSPU!** 🎯  
-This project was built as a **solution for Problem Statement 1 in Hack IITK 2024 Challenge Round 1**.  
+Welcome to the **Threat Intelligence Data Extractor** project, developed by **Team Cyber Trace SSPU!** 🎯   
 Our tool helps you extract and analyze **critical threat intelligence data** from PDF reports or raw text, including:
 
 - **Indicators of Compromise (IoCs)**
